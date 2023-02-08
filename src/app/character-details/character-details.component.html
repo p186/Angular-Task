@@ -1,0 +1,33 @@
+<ng-container *ngIf="data">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 mb-4">
+                  <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6 pr-0">
+                                <div class="bodyCard">
+                                    <img [src]="data.image">
+                                </div>
+                            </div>
+                            <div class="col-6 pl-0">
+                                <div class="p-3 custombody">                           
+                                <h3 class="chrac-body">Name: <span>{{data.name}}</span></h3>
+                                <h3 class="chrac-body">Status: <span> {{data.status}}</span></h3>
+                                <h3 class="chrac-body">Species: <span> {{data.species}}</span></h3>
+                                <h3 class="chrac-body">Location: <span> {{data.location.name}}</span></h3>
+                                <h3 class="chrac-body">Gender: <span> {{data.gender}}</span></h3>
+                                <h3 class="chrac-body">Origin: <span> {{data.origin.name}}</span></h3>
+                                <br>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary btn-sm float-right" [routerLink]="'/'">Back</button> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</ng-container>

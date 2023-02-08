@@ -1,0 +1,24 @@
+.card-body {
+    padding: 15px;
+    background-color: rgb(43, 40, 40);
+}
+
+.bodyCard img {
+    margin: 0 auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.custombody{
+    background-color: rgb(78, 76, 76);
+    height:300px;
+}
+.texth3{
+    color:aliceblue;
+}
+.texth5{
+    color:gray;
+}
+.custombody span{
+    font-weight: 200;
+    color: aliceblue;
+}
